@@ -1,11 +1,10 @@
 import React from "react";
+import CV from '../assets/CVRosmariLedesma.pdf';
+
 
 const AboutMe = function(){
  return(
   <section class="home" id="home">
-    <div class="home-img">
-      <img src="./assets/icons/ReadyPlayerMe-Avatar.jpeg" alt="" />
-    </div>
     <div class="home-content">
       <h1>Hola!, soy <span>Rosmari Ledesma</span></h1>
 
@@ -13,7 +12,7 @@ const AboutMe = function(){
       <br />
       <br />
       <p>
-        Soy una desarrolladora Full Stack certificada, recientemente graduada
+        Soy una desarrolladora Full Stack certificada, graduada
         de un bootcamp de desarrollo web intensivo de 7 meses. Durante este
         programa, adquirí habilidades en front-end y back-end, creé juntos con
         mis repectivos equipos dos aplicaciones web completas con diferentes
@@ -38,8 +37,8 @@ const AboutMe = function(){
       </div>
 
       <a
-        href="./assets/CVRosmariLedesma.pdf"
-        download="CV Rosmari Ledesma.pdf"
+        href={CV}
+        download="CVRosmariLedesma.pdf"
         class="btn"
       >Descargar CV <i class="fa-solid fa-download"></i></a>
     </div>

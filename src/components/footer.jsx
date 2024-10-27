@@ -26,9 +26,8 @@ const Footer= function(){
     <ul>
       <li><a href="#home">Inicio</a></li>
       <li><a href="#projects">Proyectos</a></li>
-      <li><a href="#contact">Contacto</a></li>
     </ul>
-    <p className="copyright">Rosmari Ledesma code | All Rights Reserved</p>
+    <p className="copyright">Rosmari Ledesma | Todos los derechos reservados</p>
   </footer>
   
   )

@@ -35,7 +35,9 @@ return(
               para empresas de logística, para que puedan monitorear la
               operación de repartidores, asignar o reasignar paquetes e
               intervenir en caso que haga falta editar un envío modificando el
-              domicilio o para asignarle el envío a otro repartidor.
+              domicilio o para asignarle el envío a otro repartidor.<br/>
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              Tecnologías principales: TypeScript, React.js, Next.js, Node.js, Express.js y PostgreSQL.
               <br />
               <a
                 href="https://github.com/Rosm08/BoxDeliveryFrontend/blob/319fb6c10f0fcfabd22b454c7fbda9a9ac81b84d/README.md"
@@ -84,7 +86,9 @@ return(
               clientes por sucursal y los horarios disponibles. Las reservas
               pueden cancelarse con anticipación, y proporcionamos a los
               comercios un panel gráfico para visualizarlas y obtener métricas
-              basadas en las reservas realizadas.
+              basadas en las reservas realizadas.<br/>
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              Tecnologías principales: JavaScript, React.js, Node.js, Express.js y PostgreSQL. 
               <br />
               <a
                 href="https://github.com/Rosm08/mi-turno-web-front/blob/cc37e22dcf353827dc6d647b1a069191caa0ef8d/README.md"

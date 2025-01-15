@@ -1,5 +1,5 @@
 import React from "react";
-
+import bootcamp from '../assets/ROSMARILEDESMACertificadoJavaScriptBootcamp2023.pdf';
 const Educacion = function(){
   return(
 
@@ -30,6 +30,12 @@ const Educacion = function(){
                 ágil Scrum y Trello, desarrollo de habilidades técnicas y de
                 comunicación efectiva.
               </p>
+              <br/>
+              <a
+              href={bootcamp}
+              download="ROSMARILEDESMACertificadoJavaScriptBootcamp2023.pdf"
+              class="btn"
+              >Descargar certificado <i class="fa-solid fa-download"></i></a>
             </div>
           </div>
         </div>

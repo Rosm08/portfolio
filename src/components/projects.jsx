@@ -11,6 +11,12 @@ import BDimagen2 from "../assets/appBox/BDimagen2.png"
 import BDimagen3 from "../assets/appBox/BDimagen3.png"
 import BDimagen4 from "../assets/appBox/BDimagen4.png"
 import BDimagen5 from "../assets/appBox/BDimagen5.png"
+import devintech1 from "../assets/devinTech/devintech1.png"
+import devintech2 from "../assets/devinTech/devintech2.png"
+import devintech3 from "../assets/devinTech/devintech3.png"
+import devintech4 from "../assets/devinTech/devintech4.png"
+import devintech5 from "../assets/devinTech/devintech5.png"
+import NoCountry from '../assets/RosmariLedesma.jpg';
 
 
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // Importa los estilos del carrusel
@@ -21,7 +27,64 @@ return(
         <span>Proyectos</span>
       </h2>
       <div className="services-container">
-        {/* Proyecto 1 */}
+        {/* Proyecto 3 */}
+        <div className="services-box">
+          <div className="services-info">
+            <h4>
+             DevinTech-NoCountry |<i class="fa-solid fa-cart-shopping"></i>
+            </h4>
+            <h2>Rol: Backend Developer </h2>
+            <br />
+    
+            <p>DevinTech es una plataforma de e-commerce especializada en la venta de productos audiovisuales e informáticos. Está diseñada para ofrecer una experiencia versátil y funcional, con tres perfiles de usuario: administrador, vendedor y cliente.
+
+               Un aspecto innovador de DevinTech es que un cliente puede evolucionar fácilmente a un perfil de vendedor, gestionando su propia tienda virtual desde una interfaz personalizada y dinámica que incluye estadísticas detalladas y herramientas de personalización.
+
+               Además, como cliente, la plataforma prioriza la seguridad en las compras, recomendaciones personalizadas y guías intuitivas que aseguran una experiencia de usuario confiable y satisfactoria.
+             <br/>
+              <i class="fa-solid fa-screwdriver-wrench"></i>
+              Tecnologías principales: JavaScript, vite.js & React.js, Node.js, Express.js y PostgreSQL.
+              <br />
+              <a
+                href="https://github.com/No-Country-simulation/c21-36-n-node-react"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ver repositorio <i className="fa-solid fa-code"></i>
+              </a>
+              <br/>
+              <a
+                href={NoCountry}
+                download="RosmariLedesma.jpg"
+              >
+               Descargar certificado <i class="fa-solid fa-download"></i>
+              </a>
+              
+
+              
+            </p>
+            <br/>
+            <Carousel showThumbs={false} autoPlay infiniteLoop>
+              <div>
+                <img src={devintech1} alt="DevinTech 1" />
+              </div>
+              <div>
+                <img src={devintech2} alt="DevinTech 2" />
+              </div>
+              <div>
+                <img src={devintech3} alt="DevinTech 3" />
+              </div>
+              <div>
+                <img src={devintech4} alt="DevinTech 4" />
+              </div>
+              <div>
+                <img src={devintech5} alt="DevinTech 5" />
+              </div>
+            
+            </Carousel>
+          </div>
+        </div>
+        {/* Proyecto 2 */}
         <div className="services-box">
           <div className="services-info">
             <h4>
@@ -69,7 +132,7 @@ return(
           </div>
         </div>
 
-        {/* Proyecto 2 */}
+        {/* Proyecto 1 */}
         <div className="services-box">
           <div className="services-info">
             <h4>
@@ -77,7 +140,6 @@ return(
             </h4>
             <h2>Rol: Developer Full Stack</h2>
             <br />
-            {/* Carrusel de imágenes del proyecto */}
             
             <p>
               Esta aplicación web facilita la reserva de turnos para empresas
